@@ -9,7 +9,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`bg-coral-red flex  font-bold p-4 gap-2 rounded-full justify-center items-center text-lg  font-montserrat ${
+      className={`bg-coral-red flex  font-bold p-4  gap-2 rounded-full justify-center items-center text-lg  font-montserrat ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "text-white border border-coral-red"
