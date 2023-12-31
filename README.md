@@ -12,17 +12,20 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 If you prefer visual learning, this is the perfect resource for you to learning taillwind and reactjs projects like these step-by-step in a beginner-friendly manner!
 
 ## <a name="introduction">🤖 Introduction</a>
+Master Tailwind CSS in two parts by first learning fundamentals, advanced techniques, and theming. Then, build a stunning Nike landing page, applying learned skills to create a visually impressive website. below is the image of website and design.
+Nav Section and Hero section
+![image](https://github.com/Hi-LEO/nike/assets/125797501/46cc2119-c6eb-4714-9666-284ea54acd53)
 
-![Alt text](image.png)
-Master Tailwind CSS in two parts by first learning fundamentals, advanced techniques, and theming. Then, build a stunning Nike landing page, applying learned skills to create a visually impressive website.
-![Alt text](image-1.png)
-👉 ❤️superquility section
-![Alt text](image-2.png)
+👉 ❤️superquility section and popular product
+![image](https://github.com/Hi-LEO/nike/assets/125797501/da5fb098-b641-40ed-baea-cd1306f07a73)
+
 👉 ❤️ sepcial offer section
-![Alt text](image-3.png)
+![image](https://github.com/Hi-LEO/nike/assets/125797501/f9d1626e-933f-4a3f-95f6-506de5b9d766)
+
 👉 ❤️ review and footer section
 
-![Alt text](image-4.png)
+![image](https://github.com/Hi-LEO/nike/assets/125797501/1592d9e3-e58d-40a9-9597-b85a18cb56dc)
+
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
