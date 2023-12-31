@@ -79,8 +79,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/nike_landing_page.git
-cd nike_landing_page
+git clone https://github.com/Hi-LEO/nike.git
+cd nike
 ```
 
 **Installation**
