@@ -13,7 +13,16 @@ If you prefer visual learning, this is the perfect resource for you to learning 
 
 ## <a name="introduction">🤖 Introduction</a>
 
+![Alt text](image.png)
 Master Tailwind CSS in two parts by first learning fundamentals, advanced techniques, and theming. Then, build a stunning Nike landing page, applying learned skills to create a visually impressive website.
+![Alt text](image-1.png)
+👉 ❤️superquility section
+![Alt text](image-2.png)
+👉 ❤️ sepcial offer section
+![Alt text](image-3.png)
+👉 ❤️ review and footer section
+
+![Alt text](image-4.png)
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
