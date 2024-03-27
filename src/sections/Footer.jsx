@@ -13,8 +13,11 @@ const Footer = () => {
           perfect in Store. Get Rewards.
         </p>
         <div className="flex gap-6 ">
-          {socialMedia.map((social) => (
-            <div className="flex justify-center p-2 bg-white items-center rounded-full mt-3">
+          {socialMedia?.map((social, index) => (
+            <div
+              key={index}
+              className="flex justify-center p-2 bg-white items-center rounded-full mt-3"
+            >
               <img
                 src={social.src}
                 alt="socialmedia"
@@ -26,14 +29,14 @@ const Footer = () => {
           ))}
         </div>
         <div className="flex max-sm:grid max-sm:grid-cols-2 flex-1 gap-20 flex-wrap mt-6">
-          {footerLinks.map((section) => (
-            <div className="">
+          {footerLinks?.map((section, index) => (
+            <div key={index} className="">
               <h3 className="mb-2 max-sm:text-2xl text-3xl font-bold">
                 {" "}
                 {section.title}
               </h3>
-              {section.links.map((link) => (
-                <div className="mb-1">
+              {section.links?.map((link, index) => (
+                <div key={index} className="mb-1">
                   <ul>
                     <li>
                       <a href="/">{link.name}</a>

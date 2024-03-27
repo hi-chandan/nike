@@ -24,8 +24,8 @@ const Hero = () => {
         </p>
         <Button label="Shop now" iconURL={arrowRight} />
         <div className="flex mt-10 gap-16 justify-start items-start flex-wrap">
-          {statistics.map((val) => (
-            <div className="" key={val.label}>
+          {statistics?.map((val, index) => (
+            <div className="" key={index}>
               <p className="text-4xl font-bold font-palanquin">{val.value}</p>
               <p className="font-montserrat text-gray-950  ">{val.label}</p>
             </div>
@@ -41,8 +41,8 @@ const Hero = () => {
           className="object-contain z-10 relative"
         />
         <div className="flex absolute w-full justify-center items-center -bottom-[5%] gap-4  ">
-          {shoes.map((shoe) => (
-            <div className="" key={shoe}>
+          {shoes?.map((shoe, index) => (
+            <div className="" key={index}>
               <ShoeCard
                 imgURL={shoe}
                 changeBigShoeImage={(shoe) => {

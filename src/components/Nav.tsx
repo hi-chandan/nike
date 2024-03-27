@@ -12,8 +12,8 @@ const Nav = () => {
           <img src={headerLogo} alt="LOGO" width={130} height={29} />
         </a>
         <ul className=" flex flex-1 max-lg:hidden justify-center   gap-16 ">
-          {navLinks.map((val) => (
-            <li key={val.label}>
+          {navLinks?.map((val, index) => (
+            <li key={index}>
               <a
                 href={val.href}
                 className="font-montserrat leading-normal text-lg text-slate-700 font-bold"
@@ -35,8 +35,8 @@ const Nav = () => {
       </nav>
       {usenav ? (
         <div className="flex flex-col gap-2 mt-6">
-          {navLinks.map((val) => (
-            <li className="list-none" key={val.label}>
+          {navLinks?.map((val, index) => (
+            <li className="list-none" key={index}>
               <a
                 href={val.href}
                 onClick={() => setnav(!usenav)}
