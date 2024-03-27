@@ -1,16 +1,24 @@
 import React from "react";
-import {
-  Hero,
-  PopularProduct,
-  SuperQuality,
-  Services,
-  SpeicalOffter,
-  CustumerReviews,
-  Subcribe,
-  Footer,
-  Nav,
-} from "./sections/index";
-
+// import {
+//   Hero,
+//   PopularProduct,
+//   SuperQuality,
+//   Services,
+//   SpeicalOffter,
+//   CustumerReviews,
+//   Subcribe,
+//   Footer,
+//   Nav,
+// } from "./sections/index";
+import Hero from "./sections/Hero";
+import PopularProduct from "./sections/PopularProduct";
+import SuperQuality from "./sections/superQuality";
+import Services from "./sections/Services";
+import CustumerReviews from "./sections/CustumerReviews";
+import SpeicalOffter from "./sections/speicalOffter";
+import Subcribe from "./sections/Subcribe";
+import Footer from "./sections/Footer";
+import Nav from "./components/Nav";
 const App = () => (
   <main className="">
     <Nav />
