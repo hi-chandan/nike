@@ -22,16 +22,16 @@ import Nav from "./components/Nav";
 const App = () => (
   <main className="">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
+    <section id="home" className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
-    <section className="padding">
+    <section id="products" className="padding">
       <PopularProduct />
     </section>
     <section className="padding">
       <SuperQuality />
     </section>
-    <section className="padding-x py-10">
+    <section id="about-us" className="padding-x py-10">
       <Services />
     </section>
     <section className="padding">
@@ -43,7 +43,7 @@ const App = () => (
     <section className="padding-x sm:py32 py16 w-full">
       <Subcribe />
     </section>
-    <section className="padding bg-black text-white">
+    <section id="contact-us" className="padding bg-black text-white">
       <Footer />
     </section>
   </main>

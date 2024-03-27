@@ -6,8 +6,8 @@ const Nav = () => {
   const [usenav, setnav] = useState(false);
 
   return (
-    <header className="padding-x bg-pink-200 py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container">
+    <header className="fixed padding-x bg-pink-200 py-8  z-10 w-full">
+      <nav className=" flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="LOGO" width={130} height={29} />
         </a>
